@@ -13,11 +13,12 @@
 #### webpack-v4.0-features/compare-incules-index-of.js 对比indexOf inclues
 * 测试结果
   boron
-    inclues: 19.968ms
+    includes: 19.968ms
     indexOf: 60.642ms
   erbium
     inclues: 3.360ms
     indexOf: 19.315ms
 * Array.prototype.fill(value, startIndex = 0, endIndex = this.length)) 
-
+* Array.prototype.includes(valueToFind, fromIndex) // 如果fromIndex为负，则从绝对值开始往后找
+* arr.indexOf(searchElement[, fromIndex]) // 同上
 

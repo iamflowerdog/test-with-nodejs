@@ -4,13 +4,13 @@ const hugeArr = new Array(ARR_SIZE).fill(1);
 // inclues
 const incluesTest = () => {
   const arrCopy = [];
-  console.time('inclues');
+  console.time('includes');
   let i = 0;
   // 数组不建议使用 for...in 遍历索引
   while (i < hugeArr.length) {
     arrCopy.includes(i++);
   }
-  console.timeEnd('inclues');
+  console.timeEnd('includes');
 }
 
 // indexOf
