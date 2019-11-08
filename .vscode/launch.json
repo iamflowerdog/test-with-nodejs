@@ -7,7 +7,16 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Program",
+      "name": "sync-hook",
+      "program": "${workspaceFolder}/tapable-test/index.js",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "map-performance",
       "program": "${workspaceFolder}/webpack-v4.0-features/map-performance.js"
     }
   ]
