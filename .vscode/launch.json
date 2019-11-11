@@ -7,6 +7,15 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "car",
+      "program": "${workspaceFolder}/tapable-test/car.js",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "sync-hook",
       "program": "${workspaceFolder}/tapable-test/index.js",
       "skipFiles": [
