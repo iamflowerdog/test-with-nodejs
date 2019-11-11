@@ -22,3 +22,6 @@
 * Array.prototype.includes(valueToFind, fromIndex) // 如果fromIndex为负，则从绝对值开始往后找
 * arr.indexOf(searchElement[, fromIndex]) // 同上
 
+#### tapable-test 
+* tapable 是一个类似于 Node.js 的 EventEmitter 的库，控制钩子函数的发布与订阅，控制webpack的插件系统
+* tap绑定 call执行
