@@ -7,6 +7,15 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "my-plugin",
+      "program": "${workspaceFolder}/tapable-test/my-plugin.js",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "car",
       "program": "${workspaceFolder}/tapable-test/car.js",
       "skipFiles": [
